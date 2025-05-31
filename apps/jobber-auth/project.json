@@ -35,6 +35,18 @@
         }
       }
     },
+    "dk-generate": {
+      "command": "drizzle-kit generate",
+      "options": {
+        "cwd": "apps/jobber-auth"
+      }
+    },
+    "dk-migrate": {
+      "command": "drizzle-kit migrate",
+      "options": {
+        "cwd": "apps/jobber-auth"
+      }
+    },
     "test": {
       "options": {
         "passWithNoTests": true
